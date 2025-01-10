@@ -4,9 +4,9 @@ import { socialLinks } from "./config";
 export default function Page() {
   return (
     <section>
-      <a href={socialLinks.twitter} target="_blank">
+      <a href={socialLinks.linkedin} target="_blank">
         <Image
-          src="/profile.png"
+          src="/profile.jpg"
           alt="Profile photo"
           className="rounded-full bg-gray-100 block lg:mt-5 mt-0 lg:mb-5 mb-10 mx-auto sm:float-right sm:ml-5 sm:mb-5 grayscale hover:grayscale-0"
           unoptimized
@@ -16,7 +16,7 @@ export default function Page() {
         />
       </a>
 
-      <h1 className="mb-8 text-2xl font-medium tracking-tight">Hi 👋 I'm Anutej</h1>
+      <h1 className="mb-8 text-2xl font-medium tracking-tight">I'm Anutej</h1>
 
       <div className="prose prose-neutral dark:prose-invert">
         <p>
@@ -55,6 +55,14 @@ export default function Page() {
           </a>
           .
         </p>
+        <div className="flex flex-row gap-3 content-center">
+          <p>Site Visitors:</p>
+          <div className="content-center">
+            <a href="https://hits.seeyoufarm.com">
+              <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fwww.apoddaturi.com&count_bg=%2373C932&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Visits&edge_flat=false" />
+            </a>
+          </div>
+        </div>
       </div>
     </section>
   );
