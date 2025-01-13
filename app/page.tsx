@@ -16,37 +16,34 @@ export default function Page() {
         />
       </a>
 
-      <h1 className="mb-8 text-2xl font-medium tracking-tight">I'm Anutej</h1>
+      <h1 className="mb-8 text-2xl font-medium tracking-tight">I'm అనుటేజ్</h1>
 
       <div className="prose prose-neutral dark:prose-invert">
+        {/* I’m Anutej Poddaturi, a software development engineer passionate about creating impactful solutions. I’ve honed my skills at esteemed companies like S&P Global Market Intelligence and Salesforce, enhancing software systems and boosting user engagement.
+
+        Proficient in Python, Java, AWS, and Terraform, I optimize workflows and implement innovative solutions. Notably, I migrated and improved the OmniSearch platform, increasing its user base.
+
+        A Master’s degree in Information Systems from Northeastern University, coupled with a Bachelor’s degree in Computer Science from Osmania University, has equipped me with knowledge in application engineering.
+
+        I’ve received recognition like the S&P Global Recognition and VIBE Champion award. My portfolio showcases my commitment to excellence and passion for driving technological advancements while ensuring customer satisfaction. I’m dedicated to continuous learning and contributing to growth-fostering projects. */}
         <p>
-          A clean, fast, and lightweight portfolio template built with Next.js, Vercel, and Tailwind CSS for
-          optimal performance.
+          I’m Anutej Poddaturi, a software development engineer passionate about creating impactful solutions.
+          I’ve honed my skills at esteemed companies like S&P Global Market Intelligence and Salesforce, enhancing
+          software systems and boosting user engagement.
         </p>
         <p>
-          Nextfolio includes all the essentials for a stunning portfolio: SEO, MDX support, RSS, Atom, & JSON
-          feeds, analytics, tweet & YouTube embeds, KaTeX integration, and{" "}
-          <a target="_blank" href="https://github.com/1msirius/Nextfolio?tab=readme-ov-file#features">
-            more
-          </a>
-          .
+          Proficient in Python, Java, AWS, and Terraform, I optimize workflows and implement innovative solutions.
+          Notably, I migrated and improved the OmniSearch platform, increasing its user base.
         </p>
         <p>
-          Nextfolio is{" "}
-          <a href={socialLinks.github} target="_blank">
-            open-source
-          </a>{" "}
-          and fully customizable, making it easy to add more features.
+          A Master’s degree in Information Systems from Northeastern University, coupled with a Bachelor’s degree
+          in Computer Science from Osmania University, has equipped me with knowledge in application engineering.
         </p>
         <p>
-          <a
-            href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2F1msirius%2FNextfolio"
-            target="_blank"
-          >
-            Deploy
-          </a>{" "}
-          your Nextfolio site with Vercel in minutes and follow the set up instructions in the{" "}
-          <a href="/blog/getting-started">Getting Started</a> post.
+          I’ve received recognition like the S&P Global Recognition and VIBE Champion award. My portfolio
+          showcases my commitment to excellence and passion for driving technological advancements while ensuring
+          customer satisfaction. I’m dedicated to continuous learning and contributing to growth-fostering
+          projects.
         </p>
         <p>
           Built and maintained by{" "}
