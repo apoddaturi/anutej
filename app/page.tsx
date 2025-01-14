@@ -45,13 +45,13 @@ export default function Page() {
           customer satisfaction. I’m dedicated to continuous learning and contributing to growth-fostering
           projects.
         </p>
-        <p>
+        {/* <p>
           Built and maintained by{" "}
           <a href="https://imsirius.xyz/" target="_blank">
             Sirius
           </a>
           .
-        </p>
+        </p> */}
         <div className="flex flex-row gap-3 content-center">
           <p>Site Visitors:</p>
           <div className="content-center">
